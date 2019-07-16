@@ -58,9 +58,10 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
-  bundler
-  pry
-  rspec
+  bundler (~> 2.0)
+  pry (~> 0.12.2)
+  rake (~> 12.3.2)
+  rspec (~> 3.8.0)
   scruby!
 
 BUNDLED WITH
