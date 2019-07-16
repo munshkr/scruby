@@ -1,5 +1,7 @@
+# frozen_string_literal: true
+
 class String
   def encode #:nodoc:
-    [self.size & 255].pack('C*') + self[0..255]
+    [size & 255].pack('C*') + self[0..255]
   end
 end
